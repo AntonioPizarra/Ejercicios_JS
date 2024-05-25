@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculadora de Letra DNI</title>
+    <link rel="stylesheet" href="ej04.css">
+</head>
+<body>
+    <div class="form-container">
+        <h1>Calculadora de Letra DNI</h1>
+        <form id="dniForm">
+            <label for="dni">Número de DNI:</label>
+            <input type="text" id="dni" name="dni" required pattern="\d{7,8}">
+            <button type="submit">Calcular</button>
+        </form>
+        <div id="result" class="result"></div>
+    </div>
+    
+    <div id="result" class="result"></div>
+    <a href="../index.html" class="back-button">Volver al índice</a>
+
+    <script src="ej04.js"></script>
+</body>
+</html>
